@@ -45,7 +45,7 @@ export default function SignInScreen() {
           experience!
         </Text>
 
-        <View className="m-6">
+        <View className="m-6 mt-12">
           <Pressable
             className={`mb-3 h-14 flex-row items-center rounded-2xl border border-border bg-card px-4 active:opacity-90 ${
               isLoading ? "opacity-70" : ""
@@ -96,7 +96,7 @@ export default function SignInScreen() {
               <FontAwesome name='apple' size={24} color='#111111' />
             </View>
 
-            <Text className="ml-3 flex-1 text-lg font-semibold text-primary-foreground">
+            <Text className="ml-3 flex-1 text-lg font-semibold text-card-foreground">
               {isAppleClicked
                 ? "Connecting apple..."
                 : "Continue with Apple"}
